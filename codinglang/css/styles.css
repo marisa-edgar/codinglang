@@ -21,19 +21,22 @@ h1 {
   text-align: center;
 }
 
-#snowWhite {
+#c {
+  display: none;
+}
+#javascript {
   display: none;
 }
 
-#belle {
+#python {
   display: none;
 }
 
-#ariel {
+#html {
   display: none;
 }
 
-#naruto {
+#ruby {
   display: none;
 }
 

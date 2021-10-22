@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#quiz").submit(function(event){
-    event.preventdefault();
-    $("#hide-quiz").hide().
+    event.preventDefault();
+    $("#hide-quiz").hide();
     const startrek=$("input:radio[name=startrek]:checked").val();
     const food=$("input:radio[name=food]:checked").val();
     const transport=$("input:radio[name=transport]:checked").val();
@@ -69,5 +69,16 @@ $(document).ready(function(){
       total += 5;
     };
 
+    if (total <= 4) {
+      $("#c").show();
+    } else if (total <= 8) {
+      $("#javascript").show();
+    } else if (total <= 12) {
+      $("#python").show();
+    } else if (total <= 14) {
+      $("#html").show();
+    } else {
+      $("#ruby").show();
+    };
   });
 });
