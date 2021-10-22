@@ -13,22 +13,59 @@ $(document).ready(function(){
       total += 1;
     } else if (startrek === "TNG"){
       total += 2;
-    }else if (startrek === "voy"{
+    }else if (startrek === "voy"){
       total += 3;
-    }else if (startrek === "Ds9"{
+    }else if (startrek === "Ds9"){
       total += 4;
-    }else if (startrek === "discovery"{
+    }else if (startrek === "discovery"){
       total += 5;
     };
+
     if (food === "hotdog"){
       total += 1;
     }else if (food === "spaghetti"){
       total += 2;
-    }else if (food === "spaghetti"){
-      total += 3;
     }else if (food === "sandwich"){
-      total += 4;
+      total += 3;
     }else if (food === "ramen"){
+      total += 4;
+    }else if (food === "fish"){
+      total += 5;
+    };
+
+    if (transport === "bus"){
+      total += 1;
+    }else if (transport=== "car"){
+      total += 2;
+    }else if (transport === "walk"){
+      total += 3;
+    }else if (transport === "bike"){
+      total += 4;
+    }else if (transport === "horse"){
+      total += 5;
+    };
+
+    if (siblings === "zero"){
+      total += 1;
+    }else if (siblings === "one"){
+      total += 2;
+    }else if (siblings === "two"){
+      total += 3;
+    }else if (siblings === "three"){
+      total += 4;
+    }else if (siblings === "four"){
+      total += 5;
+    };
+
+    if (lofi === "jazz"){
+      total += 1;
+    }else if (lofi === "coffee"){
+      total += 2;
+    }else if (lofi === "hiphop"){
+      total += 3;
+    }else if (lofi === "game"){
+      total += 4;
+    }else if (lofi === "ghibli"){
       total += 5;
     };
 
