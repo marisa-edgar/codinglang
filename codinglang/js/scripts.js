@@ -79,6 +79,6 @@ $(document).ready(function(){
       $("#html").show();
     } else {
       $("#ruby").show();
-    };
+    }
   });
 });
