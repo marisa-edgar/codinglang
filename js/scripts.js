@@ -1,12 +1,12 @@
 $(document).ready(function(){
   $("#quiz").submit(function(event){
     event.preventDefault();
-    $("#hide-quiz").hide();
+    $("#quiz-hide").hide();
     const startrek=$("input:radio[name=startrek]:checked").val();
     const food=$("input:radio[name=food]:checked").val();
     const transport=$("input:radio[name=transport]:checked").val();
-    const siblings=$("input:radio[name=sibings]:checked").val();
-    const lofi=("input:radio[name=lofi]:checked").val();
+    const siblings=$("input:radio[name=siblings]:checked").val();
+    const music=$("input:radio[name=lofi]:checked").val();
     let total=0;
 
     if (startrek === "theog"){
@@ -57,28 +57,28 @@ $(document).ready(function(){
       total += 5;
     };
 
-    if (lofi === "jazz"){
+    if (music === "jazz"){
       total += 1;
-    }else if (lofi === "coffee"){
+    }else if (music === "coffee"){
       total += 2;
-    }else if (lofi === "hiphop"){
+    }else if (music === "hiphop"){
       total += 3;
-    }else if (lofi === "game"){
+    }else if (music === "game"){
       total += 4;
-    }else if (lofi === "ghibli"){
+    }else if (music === "ghibli"){
       total += 5;
     };
 
     if (total <= 6) {
       $("#c").show();
-    } else if (total <= 11) {
+    }else if (total <= 11) {
       $("#javascript").show();
-    } else if (total <= 16) {
+    }else if (total <= 16) {
       $("#python").show();
-    } else if (total <= 21) {
+    }else if (total <= 21) {
       $("#html").show();
-    } else {
+    }else {
       $("#ruby").show();
-    }
+    };
   });
 });
