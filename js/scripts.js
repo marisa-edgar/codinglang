@@ -69,13 +69,13 @@ $(document).ready(function(){
       total += 5;
     };
 
-    if (total <= 4) {
+    if (total <= 6) {
       $("#c").show();
-    } else if (total <= 8) {
+    } else if (total <= 11) {
       $("#javascript").show();
-    } else if (total <= 12) {
+    } else if (total <= 16) {
       $("#python").show();
-    } else if (total <= 14) {
+    } else if (total <= 21) {
       $("#html").show();
     } else {
       $("#ruby").show();
