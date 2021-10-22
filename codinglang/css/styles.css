@@ -6,3 +6,50 @@
   top:-150px;
   border: solid;
 }
+body {
+  background-color: #eaecef;
+}
+
+.container {
+  padding-bottom: 1em;
+}
+
+img {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+#snowWhite {
+  display: none;
+}
+
+#belle {
+  display: none;
+}
+
+#ariel {
+  display: none;
+}
+
+#naruto {
+  display: none;
+}
+
+
+.btn {
+  color: #eaecef;
+  font-size: 2rem;
+  background-color:black;
+  width: 60%;
+  display: block;
+  margin: 1em auto;
+}
+
+.btn:hover {
+  color: white;
+  font-weight: bold;
+  width: 70%;
+}
+
