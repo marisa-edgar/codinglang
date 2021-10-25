@@ -2,22 +2,22 @@ $(document).ready(function(){
   $("#quiz").submit(function(event){
     event.preventDefault();
     $("#quiz-hide").hide();
-    const startrek=$("input:radio[name=startrek]:checked").val();
+    const starTrek=$("input:radio[name=startrek]:checked").val();
     const food=$("input:radio[name=food]:checked").val();
     const transport=$("input:radio[name=transport]:checked").val();
     const siblings=$("input:radio[name=siblings]:checked").val();
     const music=$("input:radio[name=lofi]:checked").val();
     let total=0;
 
-    if (startrek === "theog"){
+    if (starTrek === "theog"){
       total += 1;
-    } else if (startrek === "TNG"){
+    } else if (starTrek === "TNG"){
       total += 2;
-    }else if (startrek === "voy"){
+    }else if (starTrek === "voy"){
       total += 3;
-    }else if (startrek === "Ds9"){
+    }else if (starTrek === "Ds9"){
       total += 4;
-    }else if (startrek === "discovery"){
+    }else if (starTrek === "discovery"){
       total += 5;
     };
 
