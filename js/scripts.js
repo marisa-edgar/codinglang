@@ -17,7 +17,7 @@ $(document).ready(function(){
       total += 3;
     }else if (starTrek === "Ds9"){
       total += 4;
-    }else if (starTrek === "discovery"){
+    }else if (starTrek === "disco"){
       total += 5;
     };
 

@@ -11,10 +11,12 @@
 ## Description
 _helpful quiz for choosing which coding language to use_
 ## Setup/Installation Requirements
-*_Clone repository_
-*_Navigate to file_
-*_Use terminal to open HTML_
-*_Open directory in browser_
+*_Use terminal to navigate to the directory that will contain the project_ 
+*_Clone repository by entering **git clone git.github.com:marisa-edgar/codinglang.git in chosen repository on your local machine_
+*_Open the directory in terminal on your machine_
+*_Use terminal to open "index.html" from the newly cloned repository._
+*_Open "index.html" in the browser of your choice. I recommend Chrome._
+
 ## Known bugs
 *_No known bugs_
 ## License
